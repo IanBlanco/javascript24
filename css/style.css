@@ -1,5 +1,54 @@
-h1{
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;500;600&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+    background-image:url(../multimedia/fondoDino.jpg);
+    background-position: center;
+}
+
+h1 {
     font-size: 2.5rem;
     text-align: center;
-    color: pink;
+    font-weight: 600;
+}
+
+.seccionClasesIndex {
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 10px 10px;
+    padding: 5%;
+}
+
+.seccionClasesIndex h2 {
+    font-weight: 500;
+}
+
+.seccionClasesIndex ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.itemClasesIndex {
+    list-style-type: none;
+    padding: 0;
+}
+
+.itemClasesIndex a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+    width: 5em;
+    height: 5em;
+    line-height: 5em;
+    /* Igualar altura para centrar texto */
+    background-color: black;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 10px;
 }
